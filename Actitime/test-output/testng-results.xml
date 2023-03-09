@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161705" started-at="2023-02-26T14:33:05Z" finished-at="2023-02-26T14:35:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161705" started-at="2023-02-26T14:33:05Z" finished-at="2023-02-26T14:35:47Z">
+      <class name="tasks.DeleteCustomer">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tasks.DeleteCustomer@5ce81285]" name="openBrowser" is-config="true" duration-ms="9227" started-at="2023-02-26T20:03:46Z" finished-at="2023-02-26T20:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tasks.DeleteCustomer@5ce81285]" name="login" is-config="true" duration-ms="10362" started-at="2023-02-26T20:03:55Z" finished-at="2023-02-26T20:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDeleteCustomer()[pri:0, instance:tasks.DeleteCustomer@5ce81285]" name="testDeleteCustomer" duration-ms="23995" started-at="2023-02-26T20:04:05Z" finished-at="2023-02-26T20:04:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tasks.DeleteCustomer@5ce81285]" name="logout" is-config="true" duration-ms="2528" started-at="2023-02-26T20:04:29Z" finished-at="2023-02-26T20:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tasks.DeleteCustomer@5ce81285]" name="closeBrowser" is-config="true" duration-ms="14" started-at="2023-02-26T20:04:32Z" finished-at="2023-02-26T20:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tasks.DeleteCustomer -->
+      <class name="users.DeleteUser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:users.DeleteUser@5ec0a365]" name="openBrowser" is-config="true" duration-ms="9529" started-at="2023-02-26T20:05:08Z" finished-at="2023-02-26T20:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:users.DeleteUser@5ec0a365]" name="login" is-config="true" duration-ms="10355" started-at="2023-02-26T20:05:17Z" finished-at="2023-02-26T20:05:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDeleteUser()[pri:0, instance:users.DeleteUser@5ec0a365]" name="testDeleteUser" duration-ms="16031" started-at="2023-02-26T20:05:28Z" finished-at="2023-02-26T20:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:users.DeleteUser@5ec0a365]" name="logout" is-config="true" duration-ms="3405" started-at="2023-02-26T20:05:44Z" finished-at="2023-02-26T20:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:users.DeleteUser@5ec0a365]" name="closeBrowser" is-config="true" duration-ms="12" started-at="2023-02-26T20:05:47Z" finished-at="2023-02-26T20:05:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- users.DeleteUser -->
+      <class name="users.CreateUser">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:users.CreateUser@78c03f1f]" name="openBrowser" is-config="true" duration-ms="9146" started-at="2023-02-26T20:04:32Z" finished-at="2023-02-26T20:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:users.CreateUser@78c03f1f]" name="login" is-config="true" duration-ms="10385" started-at="2023-02-26T20:04:41Z" finished-at="2023-02-26T20:04:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateUser()[pri:0, instance:users.CreateUser@78c03f1f]" name="testCreateUser" duration-ms="13833" started-at="2023-02-26T20:04:51Z" finished-at="2023-02-26T20:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:users.CreateUser@78c03f1f]" name="logout" is-config="true" duration-ms="95" started-at="2023-02-26T20:05:05Z" finished-at="2023-02-26T20:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:users.CreateUser@78c03f1f]" name="closeBrowser" is-config="true" duration-ms="2663" started-at="2023-02-26T20:05:05Z" finished-at="2023-02-26T20:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- users.CreateUser -->
+      <class name="tasks.CreateCustomer">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tasks.CreateCustomer@52a86356]" name="openBrowser" is-config="true" duration-ms="10431" started-at="2023-02-26T20:03:05Z" finished-at="2023-02-26T20:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tasks.CreateCustomer@52a86356]" name="login" is-config="true" duration-ms="11035" started-at="2023-02-26T20:03:16Z" finished-at="2023-02-26T20:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:tasks.CreateCustomer@52a86356]" name="testCreateCustomer" duration-ms="16261" started-at="2023-02-26T20:03:27Z" finished-at="2023-02-26T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:tasks.CreateCustomer@52a86356]" name="logout" is-config="true" duration-ms="99" started-at="2023-02-26T20:03:43Z" finished-at="2023-02-26T20:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tasks.CreateCustomer@52a86356]" name="closeBrowser" is-config="true" duration-ms="2278" started-at="2023-02-26T20:03:43Z" finished-at="2023-02-26T20:03:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tasks.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
